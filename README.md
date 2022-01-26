@@ -10,3 +10,4 @@
 ## Sobre o Projeto
 
 Projeto feito com apenas HTML, CSS e JavaScript, e para armazenar os registros da aplicação utilizei o LocalStorage.
+ 
