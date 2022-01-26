@@ -11,6 +11,8 @@
 
 CRUD: Locadora de Automóveis.
 
-Ferramentas utilizadas: HTML, CSS e JavaScript, e para armazenar os registros da aplicação foi utilizado LocalStorage.
+Ferramentas utilizadas: HTML e CSS para a estilização;
+JavaScript para a programação;
+E para armazenar os registros da aplicação foi utilizado LocalStorage.
 
 A aplicação consiste em adicionar, editar e excluir itens de uma lista ulilizando JavaScript, e os itens serão armazenados localmente no LocalStorage.
