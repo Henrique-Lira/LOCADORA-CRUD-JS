@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="main.js" defer></script>
+    <title>LOCADORA-DE-AUTOMÓVEIS</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">LOCADORA DE AUTOMÓVEIS</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarAutomovel"><strong>NOVO AUTOMÓVEL</strong></button>
+        <table id="tableAutomovel" class="records">
+            <thead>
+                <tr>
+                    <th>MARCA</th>
+                    <th>MODELO</th>
+                    <th>TIPO</th>
+                    <th>STATUS</th>
+                    <th>OPÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2 id="novoCliente">Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input autocomplete="none" type="text" id="marcaValue" data-index="new" class="modal-field" placeholder="Marca do Veículo"
+                        required>
+                    <input autocomplete="none" type="text" id="carValue" class="modal-field" placeholder="Modelo do Veículo" required>
+
+                    
+                    <!-- <input autocomplete="none" type="text" id="tipoValue" class="modal-field" placeholder="Tipo do Veículo (hatch, sedan e SUV)" required> -->
+                    <select placeholder="Tipo do Veículo" class="modal-field"  id="tipoValue">
+                         <option value="HATCH">HATCH</option> <option value="SEDAN">SEDAN</option> <option value="SUV">SUV</option>
+                        </select>
+                    
+                    <select placeholder="Status do Automóvel" class="modal-field" id="statusValue"><option id="disponivel" value="DISPONÍVEL">DISPONÍVEL</option><option id="indisponivel" value="ALUGADO">ALUGADO</option></select>
+                    <!-- <input autocomplete="none" type="text" id="statusValue" class="modal-field" placeholder="Status do Automóvel" required> -->
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer id="footerCopy">
+        Copyright &copy; Henrique Lira
+    </footer>
+</body>
+
+</html>

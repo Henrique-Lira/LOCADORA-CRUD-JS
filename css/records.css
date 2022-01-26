@@ -1,0 +1,64 @@
+.records{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.records th{
+    height: 50px;
+    background-color: var(--primary-color);
+    padding-left: 20px;
+    font-size: 1.2rem;    
+    text-align: center;
+}
+.records td{
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    font-weight:bolder;
+    
+}
+
+.records th:last-child,
+.records td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.records tr{
+    background-color: var(--secundary-color);
+}
+.records tr:hover{
+    background-color: rgba(255, 253, 253, 0.89);
+}
+
+#novoCliente{
+    color: rgba(255, 255, 255, 0.966);
+}
+
+@media(max-width:480px){
+    .records{
+        border-spacing: 5px;
+    }
+    .records thead{
+        display:none;
+    }
+    .records tr{
+        box-shadow: 0 1px 3px var(--shadow-color);
+    }
+    .records td:not(:first-child){
+        display:flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .records td{
+        margin:10px 0;
+    }
+
+    .records tr:hover{
+        background-color: inherit;
+    }
+}

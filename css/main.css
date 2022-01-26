@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.993);
+    text-align: center;
+}
+
+:root{
+    --primary-color: #131212ce;
+    --secundary-color: #fdfdfda6;
+    --shadow-color: #CCC;
+    --text-color: #FFF;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'karla', sans-serif;
+    position:relative;
+    background-image: url(https://github.com/Henrique-Lira/health-desafio-estagio/blob/main/img/Ferrari.jpg?raw=true);
+    background-size: cover;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0 1px 2px var(--shadow-color);
+}
+
+.header-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    background-color: rgba(14, 14, 14, 0.507);
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 5vh auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+    gap: 20px;
+    background-color: #2222226c;
+}
+
+footer{
+    width:100;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    padding: 20px;
+}
+
+th{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.993);
+}
+
+@media (max-width:480px){
+    header{
+        position:fixed;
+        width:100%;
+    }
+    .header-title{
+        font-size: 1.5rem;
+    }
+
+    main{
+        padding: 0;
+        margin: 20px 0 0 0;
+        width:100%;
+        box-shadow: none;
+    }
+}
