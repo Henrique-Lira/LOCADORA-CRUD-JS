@@ -9,7 +9,7 @@
 
 ## Sobre o Projeto
 
-CRUD: Locadora de Automóveis.
+<h3>CRUD: Locadora de Automóveis. </h3>
 
 A aplicação consiste em adicionar, editar e excluir itens de uma lista ulilizando JavaScript, e os itens serão armazenados localmente no LocalStorage.
 
