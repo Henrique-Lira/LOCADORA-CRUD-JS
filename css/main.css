@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     font-family: 'karla', sans-serif;
     position:relative;
-    background-image: url(https://github.com/Henrique-Lira/health-desafio-estagio/blob/main/img/Ferrari.jpg?raw=true);
+    background-image: url(https://github.com/Henrique-Lira/LOCADORA-CRUD-JS/blob/main/img/Ferrari.jpg);
     background-size: cover;
 }
 
