@@ -1,4 +1,4 @@
-h1 LOCADORA DE AUTOMÓVEIS
+# LOCADORA DE AUTOMÓVEIS
  
 ## <a href="https://henrique-lira.github.io/LOCADORA-CRUD-JS/" target="_blank">LINK DO PROJETO</a>
 <div align="center" >
@@ -7,7 +7,7 @@ h1 LOCADORA DE AUTOMÓVEIS
 
 ---
 
-h1 Sobre o Projeto
+## Sobre o Projeto
 
 CRUD: Locadora de Automóveis.
 
