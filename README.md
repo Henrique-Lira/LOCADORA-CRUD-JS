@@ -11,6 +11,8 @@
 
 CRUD: Locadora de Automóveis.
 
+A aplicação consiste em adicionar, editar e excluir itens de uma lista ulilizando JavaScript, e os itens serão armazenados localmente no LocalStorage.
+
 <ul>
 <h2>Ferramentas utilizadas:</h1>
 <li>HTML e CSS para a estilização;</li> 
@@ -18,4 +20,4 @@ CRUD: Locadora de Automóveis.
 <li>E para armazenar os registros da aplicação foi utilizado LocalStorage.</li>
 </ul>
 <br>
-A aplicação consiste em adicionar, editar e excluir itens de uma lista ulilizando JavaScript, e os itens serão armazenados localmente no LocalStorage.
+
