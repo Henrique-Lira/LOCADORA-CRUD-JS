@@ -2,7 +2,7 @@
  
 ## <a href="https://henrique-lira.github.io/LOCADORA-CRUD-JS/" target="_blank">LINK DO PROJETO</a>
 <div align="center" >
-<a href="https://henrique-lira.github.io/LOCADORA-CRUD-JS/"><img src="./Gif/demostracao.gif"></a>
+<a href="https://henrique-lira.github.io/LOCADORA-CRUD-JS/"><img src="./Gif/Video Locadora de Automoveis.gif"></a>
 </div>
 
 ---
