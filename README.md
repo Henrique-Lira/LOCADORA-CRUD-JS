@@ -1,8 +1,8 @@
 # LOCADORA DE AUTOMÓVEIS
  
-## <a href="https://henrique-lira.github.io/health-desafio-estagio/" target="_blank">LINK DO PROJETO</a>
+## <a href="https://github.com/Henrique-Lira/LOCADORA-CRUD-JS/blob/main/Gif/demostracao.gif" target="_blank">LINK DO PROJETO</a>
 <div align="center" >
-<a href="https://henrique-lira.github.io/health-desafio-estagio/"><img src="./Gif/demostracao.gif"></a>
+<a href="https://github.com/Henrique-Lira/LOCADORA-CRUD-JS/blob/main/Gif/demostracao.gif"><img src="./Gif/demostracao.gif"></a>
 </div>
 
 ---
